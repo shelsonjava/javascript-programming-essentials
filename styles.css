@@ -49,116 +49,149 @@ footer {
 #contact h1 {
   font-size: 36px;
 }
-*{
+
+* {
   position: relative;
   box-sizing: border-box;
 }
-.sheet{
+
+.sheet {
   max-width: 1240px;
   width: calc(100% - 2rem);
-  margin:0 auto;
+  margin: 0 auto;
 }
-h1, h2, h3, h4, h5, h6, a, button{
-  margin:0;
-  font-family:'Ubuntu', Arial, Helvetica, sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+  margin: 0;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
-button, input, textarea{
-  padding:1rem 1rem;
+
+button,
+input,
+textarea {
+  padding: 1rem 1rem;
   border-radius: 4px;
 }
-body{
-  margin:0;
+
+body {
+  margin: 0;
 }
-header{
-  height:80px;
+
+header {
+  height: 80px;
   width: 100%;
   background-color: #333;
 }
-header h1{
-  color:white;
+
+header h1 {
+  color: white;
 }
-header nav{
+
+header nav {
   display: flex;
   align-items: stretch;
 }
-header nav a{
-  padding:1rem;
+
+header nav a {
+  padding: 1rem;
   height: 100%;
   text-decoration: none;
-  color:white;
+  color: white;
   display: flex;
   border-radius: 4px;
   align-items: center;
 }
-header > div{
+
+header>div {
   display: flex;
   align-items: center;
 }
-header nav a:hover{
+
+header nav a:hover {
   background-color: white;
-  color:#333;
+  color: #333;
 }
-button{
+
+button {
   background-color: teal;
   text-transform: uppercase;
-  color:white;
+  color: white;
   font-weight: bold;
   cursor: pointer;
 }
-#recommendations{
+
+#recommendations {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
-  color:white;
+  color: white;
   scrollbar-width: 0px;
-  }
-  #recommendations > div{
-      display: flex;
-      padding:1rem;
-      margin: 0 .5rem;
-      background-color: rgba(0,0,0,.5);
 }
-#recommendations img{
+
+#recommendations>div {
+  display: flex;
+  padding: 1rem;
+  margin: 0 .5rem;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+#recommendations img {
   display: block;
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   margin-right: 1rem;
   object-fit: cover;
   object-position: center;
 }
-form{
-  flex:0 0 calc(50%)
+
+form {
+  flex: 0 0 calc(50%)
 }
-#contact-form input, #contact-form button{
-  width:100%;
+
+#contact-form input,
+#contact-form button {
+  width: 100%;
   margin-bottom: 1rem;
 }
-textarea{
+
+textarea {
   margin-bottom: 1rem;
-  width:100%;
+  width: 100%;
 }
-.cols4{
+
+.cols4 {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   margin-left: -.5rem;
   margin-right: -.5rem;
 }
-.cols4 > div{
+
+.cols4>div {
   flex: 0 0 calc(100% / 4);
-  padding:.5rem;
+  padding: .5rem;
   text-align: center;
 }
-.cols4 h2{
+
+.cols4 h2 {
   font-size: 2.5rem;
 }
-.cols4 > div > div{
+
+.cols4>div>div {
   height: 100%;
   text-align: left;
 }
-.cols4 > div:nth-child(n + 2) > div{
-  background-color: rgba(0,0,0,.5);
+
+.cols4>div:nth-child(n + 2)>div {
+  background-color: rgba(0, 0, 0, .5);
   text-align: center;
-  padding:2rem;
+  padding: 2rem;
 }
