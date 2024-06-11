@@ -1,33 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Recommendation Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <title>Travel Bloom</title>
+  <link rel="preconnect" href="http://fonts.googleapis.com">
+  <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+  <link
+    href="http://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+  <script src="./scripts.js"></script>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="sheet" style="height:100%;display: flex;justify-content: space-between;">
+      <h1>LOGO</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contact us</a>
+      </nav>
+      <div>
+        <input type="search" id="searchInput" />
+        <button id="searchButton">Search</button>
+        <button id="resetButton">Reset</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section
+      style="height: calc(100vh - 80px);background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/1280px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg');background-position: center;background-size: cover;">
+      <div class="sheet" style="padding:4rem 0;display: flex;align-items: flex-start;height:100%;">
+        <div style="flex:0 0 calc(50%)">
+          <h1 style="color: white;font-size: 4rem;">
+            EXPLORE DREAM DESTINATION
+          </h1>
+          <br />
+          <h2 style="color: white;font-weight: 400;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Scelerisque in dictum non consectetur a erat.
+          </h2>
+          <br />
+          <button>
+            BOOK NOW
+          </button>
+        </div>
+        <div id="recommendations">
 
-    <main>
-        <section id="home">
-            <h1>Welcome to our Travel Recommendation Website</h1>
-            <!-- Introduction content here -->
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Travel Recommendation Website</p>
-    </footer>
-
-    <script src="scripts.js"></script>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
